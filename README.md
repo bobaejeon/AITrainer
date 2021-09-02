@@ -6,8 +6,13 @@ It detects exercising-pose, which is given realtime, and counts "proper" reps!
 1. Choose type: **bicep curl** or **squat**<br>
  ![image](https://user-images.githubusercontent.com/67196344/131671166-55fd85d0-2774-480d-83f4-9992070f2caf.png)
 2. You can have 5 seconds to set up
-3. Make sure the camera looks at the leftside of your body.
-4. Time to start workout! It will count reps for you :)
+
+
+https://user-images.githubusercontent.com/67196344/131781539-5693deb0-418e-4bf7-b16a-26c21b9a85a0.mp4
+
+
+4. Make sure the camera looks at the leftside of your body.
+5. Time to start workout! It will count reps for you :)
 
 ### How it works
 1. Getting landmarks on the body using ***MediaPipe***: <a href="https://google.github.io/mediapipe/solutions/pose.html">Pose Estimation</a>

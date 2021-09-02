@@ -11,8 +11,17 @@ It detects exercising-pose, which is given realtime, and counts "proper" reps!
 https://user-images.githubusercontent.com/67196344/131781539-5693deb0-418e-4bf7-b16a-26c21b9a85a0.mp4
 
 
-4. Make sure the camera looks at the leftside of your body.
-5. Time to start workout! It will count reps for you :)
+3. Make sure the camera looks at the leftside of your body.
+4. Time to start workout! It will count reps for you :)
+
+
+https://user-images.githubusercontent.com/67196344/131844397-a3395e7d-b592-4c01-9e82-f38567d07a38.mp4
+
+
+
+https://user-images.githubusercontent.com/67196344/131844459-503c8362-66e6-4c2e-9c43-0c2e6cc8333d.mp4
+
+
 
 ### How it works
 1. Getting landmarks on the body using ***MediaPipe***: <a href="https://google.github.io/mediapipe/solutions/pose.html">Pose Estimation</a>
@@ -21,7 +30,7 @@ https://user-images.githubusercontent.com/67196344/131781539-5693deb0-418e-4bf7-
 
 #### Things to be improved
 - Applying it to various kinds of exercises<br>
-- Improving accuracy, especially when face of a user is not shown<br>
+- Improving accuracy, especially when face of a user's is not shown: applying improved DL model<br>
 - Detecting multiple people<br>
 - User interface<br>
 etc.

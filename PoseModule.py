@@ -50,7 +50,8 @@ class PoseDetector:
 
         # find the angle
         angle = math.degrees(math.atan2(y3-y2, x3-x2) - math.atan2(y1-y2, x1-x2))
-
+        
+        # 0 <= angle <= 180
         if angle < 0:
             angle += 360
         if angle > 180:

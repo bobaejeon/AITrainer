@@ -67,38 +67,3 @@ class PoseDetector:
             cv.putText(img, str(int(angle)), (x2-20, y2+50), cv.FONT_HERSHEY_SIMPLEX, 2, (255,0,255), 2)
 
         return angle
-
-
-# def main():
-#     detector = PoseDetector()
-#     # realtime
-#     cap = cv.VideoCapture(0)
-#
-#     if not cap.isOpened():
-#         print("Video open failed")
-#         exit()
-#
-#     fps = cap.get(cv.CAP_PROP_FPS)
-#     delay = round(1000 / fps)
-#
-#     while True:
-#         ret, img = cap.read()
-#
-#         if not ret:
-#             break
-#
-#         img = detector.get_pose(img)
-#         lmList = detector.get_position(img)
-#         if len(lmList) != 0:
-#             print(lmList[14])
-#             cv.circle(img, (lmList[14][1],lmList[14][2]), 15, (0,0,255), cv.FILLED)
-#
-#         img = cv.resize(img, (720, 720))
-#         cv.imshow("image", img)
-#
-#         if cv.waitKey(delay) == 27:
-#             break
-#
-#
-# if __name__ == "__main__":
-#     main()
